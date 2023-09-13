@@ -47,17 +47,21 @@ a {
         a:hover {
             background-color: #2980b9;
         }
+/* Your custom styles for the table container */
+.table-container {
+    padding: 20px;
+}
+
 /* Your custom styles for the table */
 table {
     border-collapse: collapse;
-    width: 80%;
-    margin: 20px auto;
+    width: 100%;
 }
 
 th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
+    padding: 10px;
     text-align: left;
+    border: 1px solid #ccc;
 }
 
 th {
@@ -66,5 +70,15 @@ th {
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
+}
+
+/* Additional styles for the referral links */
+table a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+table a:hover {
+    text-decoration: underline;
 }
 
